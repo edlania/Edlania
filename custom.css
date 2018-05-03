@@ -1,0 +1,51 @@
+#logo img {
+    margin-left: 163px;
+    margin-top: -53px;
+}
+
+#formulario_cadastro{
+    font-size: 30px;
+}
+
+#formulario_cadastro input[type=text]:focus,
+#formulario_cadastro input[type=password]:focus,
+#formulario_cadastro textarea:focus,
+#formulario_cadastro select:focus {
+    border-color: #EBB462;
+    outline: none !important;
+    box-shadow: 0 0 10px #EBB462;
+}
+
+#formulario_cadastro input[type=text],
+#formulario_cadastro input[type=password],
+#formulario_cadastro textarea,
+#formulario_cadastro select {
+    width: 100%;
+    padding: 10px;
+    BORDER-RADIUS: 5PX;
+    border: 1px solid #c0c0c0;
+}
+
+#formulario_cadastro label,
+#formulario_cadastro .titulo{
+    width: 100%;
+    color: black;
+    font-size: 16px;
+}
+
+
+.cabecalho{
+    background: #DDD;
+    border-left: 4px solid #EBB462;
+    padding: 10px !important;
+    padding-left: 59px !important;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cabecalho img {
+    width: 40px;
+    margin-top: 2px;
+    position: absolute;
+    margin-left: -40px;
+}
